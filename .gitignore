@@ -1,0 +1,54 @@
+# 依赖
+node_modules/
+server/node_modules/
+package-lock.json
+yarn.lock
+pnpm-lock.yaml
+
+# 环境变量（包含 API 密钥等敏感信息）
+.env
+.env.local
+.env.production
+.env.development
+.env.*.local
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE / 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+*.sublime-project
+*.sublime-workspace
+
+# 日志，暂无
+logs/
+*.log
+npm-debug.log*
+
+# 运行时生成
+dist/
+build/
+*.tsbuildinfo
+
+# 临时文件
+tmp/
+temp/
+*.tmp
+*.bak
+*.cache
+
+# OpenClaw 本地状态
+.openclaw/
+
+# 测试覆盖报告，暂无
+coverage/
+.nyc_output/
+
+# Docker，暂无
+docker-compose.override.yml

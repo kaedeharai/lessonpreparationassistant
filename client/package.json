@@ -1,0 +1,11 @@
+{
+  "name": "@ai-chat-app/client",
+  "version": "1.0.0",
+  "description": "AI Chat Application - Frontend",
+  "scripts": {
+    "start": "npx live-server public --port=5500"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
